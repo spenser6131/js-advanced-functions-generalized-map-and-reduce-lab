@@ -6,7 +6,7 @@ function map(arr, block) {
   return newArr
 }
 
-function reduce(arr, block, start=0) {
+function reduce(arr, block, start) {
   let agg = !!start ? start : arr[0]
   let i = !!start ? 0 : 1
   for ( ; i < arr.length; i++) {
